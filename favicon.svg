@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#800a1d" />
+      <stop offset="100%" stop-color="#3b030b" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2be" />
+      <stop offset="45%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#8a6414" />
+    </linearGradient>
+  </defs>
+  <!-- Royal Crimson Disc -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <circle cx="32" cy="32" r="26.5" fill="none" stroke="url(#goldGrad)" stroke-width="0.75" stroke-dasharray="2,2" opacity="0.85" />
+  
+  <!-- Auspicious Bengali "শ্রী" (Shri) Motif in Royal Gold -->
+  <text x="32" y="42" font-family="'Tiro Bangla', 'Hind Siliguri', 'Mukti', serif" font-size="34" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle">শ্রী</text>
+  
+  <!-- Small decorative top & bottom dots -->
+  <circle cx="32" cy="11" r="1.5" fill="url(#goldGrad)" />
+  <circle cx="32" cy="53" r="1.5" fill="url(#goldGrad)" />
+</svg>
